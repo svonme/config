@@ -1,0 +1,38 @@
+{
+  "name": "@fengqiaogang/config",
+  "description": "获取配置信息",
+  "version": "1.1.0",
+  "main": "build/index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@fengqiaogang/argv": "^1.0.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  },
+  "files": [
+    "build/",
+    "types/",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "node test/demo.js --prot 8080 --name 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svonme/config.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "svon.me@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svonme/config/issues"
+  },
+  "homepage": "https://github.com/svonme/config#readme"
+}
