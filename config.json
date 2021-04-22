@@ -1,7 +1,0 @@
-{
-  "import": "./develop/config.json",
-  "api": {
-    "static": "//a.b.c",
-    "php": "//b.b.c"
-  }
-}

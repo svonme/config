@@ -1,7 +1,0 @@
-{
-  "name": "123",
-  "api": {
-    "c": "//c.b.c"
-  },
-  "import": "./dev.json"
-}
